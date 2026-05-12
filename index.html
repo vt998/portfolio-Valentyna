@@ -485,13 +485,13 @@
       }
       .contact-email {
         display: inline-block; font-family: var(--serif);
-        font-size: clamp(1.5rem,4vw,3.5rem); color: var(--fg);
+        font-size: clamp(1rem,2.5vw,2rem); color: var(--fg);
         text-decoration: none; border-bottom: 2px solid var(--accent);
         padding-bottom: .2rem; transition: color .3s; margin: 2rem 0;
       }
       .contact-email:hover { color: var(--accent); }
 
-      footer { padding: 2rem 3rem; border-top: 1px solid var(--muted); display: flex; justify-content: space-between; align-items: center; }
+      footer { padding: 2rem 3rem; border-top: 1px solid var(--muted); display: flex; justify-content: center; align-items: center; }
       .footer-copy { font-family: var(--mono); font-size: .62rem; letter-spacing: .15em; color: rgba(240,236,227,.25); }
       .footer-links { display: flex; gap: 2rem; }
       .footer-links a { font-family: var(--mono); font-size: .62rem; letter-spacing: .15em; color: rgba(240,236,227,.3); text-decoration: none; transition: color .3s; }
@@ -527,8 +527,8 @@
       <div class="hero-grid"></div>
       <div class="hero-number">©</div>
       <div class="hero-content">
-        <p class="hero-eyebrow">Digitales Portfolio — Mediengestaltung</p>
-        <h1 class="hero-title">PORT<br />FOLIO<em>Fotografie, Video & Visuelle Kommunikation</em></h1>
+        <p class="hero-eyebrow" style="display:none;">digitales Portfolio</p>
+        <h1 class="hero-title">PORTFOLIO<em>Fotografie, Video & Visuelle Kommunikation</em></h1>
         <p class="hero-desc">Fotografie und Film — festgehalten in Momenten, die erzählen. Jedes Bild entsteht mit Blick für Licht, Komposition und Gefühl.</p>
         <a href="#portfolio" class="hero-cta">Arbeiten entdecken</a>
       </div>
@@ -596,9 +596,10 @@
           <div class="av-accent-line"></div>
         </div>
         <div class="av-box av-box-2" style="overflow:hidden;">
-          <img src="https://drive.google.com/thumbnail?id=19QvLcfPAKyMU14JmWcEKlpIuF0w0WnS_&sz=w1000" 
+          <img src="https://drive.google.com/thumbnail?id=1VclQkWk88oGV7RLJXGPT9v6cOEB8HbaN&sz=w1000" 
                alt="Valentyna" 
                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;" />
+          <div style="position:absolute;bottom:.8rem;left:1rem;font-family:'DM Sans',sans-serif;font-style:italic;font-size:1.1rem;color:var(--accent);opacity:.85;pointer-events:none;">Ich</div>
         </div>
       </div>
     </section>
@@ -612,8 +613,7 @@
     </section>
 
     <footer>
-      <span class="footer-copy">© 2025 Valentyna.T — Alle Rechte vorbehalten</span>
-      <div class="footer-links"><a href="#">Instagram</a><a href="#">Behance</a><a href="#">LinkedIn</a></div>
+      <span class="footer-copy">© 2026 Valentyna.T</span>
     </footer>
 
     <script>
@@ -631,23 +631,23 @@
     // 17=with friends new year
 
     const DRIVE_IDS = {
-      sand_footprints: "1VdHPr_U1DF_NLAPhw-kubVKqr-4JG_fx",
-      autumn:          "1Q3eQlINoAb7caEMztjB9nQr92mdWlJjQ",
-      bee:             "1LtJ0jfEYC_y_uY9MgCJcoML7v-2GLKdy",
-      bicycle:         "1Aw9Rfe_cSyGMraYJwztH-PvB5w_7M9Qa",
-      cat:             "1FLCTSpI7J1O-TXOhTqVs8ldfj_xjKpQr",
-      deer:            "1v-r0Hj1BD34vQ4Yt2whe5Vl97pS7_zeW",
-      dolfins:         "1U2ecjA6HVEqajCCVuWEgK3g71S_BbtRE",
-      ducks:           "1ndgV88za-gJ9scuh-Kf6GrYWKLn5x2mc",
+      sand_footprints: "1QUld8XckPIsl9XNrisVNPRwN6sot7R76",
+      autumn:          "1zdYucC8m6U-RWuuQf_CVNgn2kDwV6w4c",
+      bee:             "1Jn0K9Hmqa9vw6Ua-Sy5ifvmz0ilibN9y",
+      bicycle:         "1ndgV88za-gJ9scuh-Kf6GrYWKLn5x2mc",
+      cat:             "1v-r0Hj1BD34vQ4Yt2whe5Vl97pS7_zeW",
+      deer:            "1yK7Ufphe0_TIW_KfKJS9sfr_m5ZTx1E7",
+      dolfins:         "1OAlkECatNpkBfGdAFjvrWYBEMnf2Syob",
+      ducks:           "1FLCTSpI7J1O-TXOhTqVs8ldfj_xjKpQr",
       egypt:           "1d_4LUaZkZGmcx6m1jrSBkV8SyjnrMQsb",
-      leaves:          "1OVTjphTxM2HADSdp7nWQSmgC3FPBzZ_Q",
-      mallorka:        "1QUld8XckPIsl9XNrisVNPRwN6sot7R76",
+      leaves:          "1Q3eQlINoAb7caEMztjB9nQr92mdWlJjQ",
+      mallorka:        "1OVTjphTxM2HADSdp7nWQSmgC3FPBzZ_Q",
       morning_cat:     "1UwrQ_6lugfIFc6ISYMkcsUuSwvfQrLyF",
-      plane:           "1OAlkECatNpkBfGdAFjvrWYBEMnf2Syob",
-      rain:            "1yK7Ufphe0_TIW_KfKJS9sfr_m5ZTx1E7",
-      train:           "1Jn0K9Hmqa9vw6Ua-Sy5ifvmz0ilibN9y",
-      water:           "1xnUK8shLhvU6_MTn6TLqb54Lo9ctpUu6",
-      new_year:        "1zdYucC8m6U-RWuuQf_CVNgn2kDwV6w4c",
+      plane:           "1LtJ0jfEYC_y_uY9MgCJcoML7v-2GLKdy",
+      rain:            "1Aw9Rfe_cSyGMraYJwztH-PvB5w_7M9Qa",
+      train:           "1xnUK8shLhvU6_MTn6TLqb54Lo9ctpUu6",
+      water:           "1U2ecjA6HVEqajCCVuWEgK3g71S_BbtRE",
+      new_year:        "1VdHPr_U1DF_NLAPhw-kubVKqr-4JG_fx",
     };
 
     const VIDEO_FOLDERS = [
@@ -658,13 +658,13 @@
         bg: "ph-6",
         count: 7,
         items: [
-          { id:"nv1", ph:"ph-6",  title:"Flüstern der Blätter",      sub:"Natur",  driveId: DRIVE_IDS.leaves },
-          { id:"nv2", ph:"ph-s5", title:"Die kleine Sammlerin",       sub:"Makro",  driveId: DRIVE_IDS.bee },
-          { id:"nv3", ph:"ph-3",  title:"Ruhe auf dem Wasser",        sub:"Tiere",  driveId: DRIVE_IDS.ducks },
-          { id:"nv4", ph:"ph-11", title:"Begegnung im Wald",          sub:"Tiere",  driveId: DRIVE_IDS.deer },
-          { id:"nv5", ph:"ph-1",  title:"Regenlichter",               sub:"Natur",  driveId: DRIVE_IDS.rain },
-          { id:"nv6", ph:"ph-s1", title:"Sonnenplatz",                sub:"Tiere",  driveId: DRIVE_IDS.cat },
-          { id:"nv7", ph:"ph-s3", title:"Katzenmorgen",               sub:"Tiere",  driveId: DRIVE_IDS.morning_cat },
+          { id:"nv1", ph:"ph-6",  title:"Flüstern der Blätter",      sub:"Ingolstadt",  driveId: DRIVE_IDS.leaves },
+          { id:"nv2", ph:"ph-s5", title:"Die kleine Sammlerin",       sub:"Würzburg",    driveId: DRIVE_IDS.bee },
+          { id:"nv3", ph:"ph-3",  title:"Ruhe auf dem Wasser",        sub:"Eibsee",      driveId: DRIVE_IDS.ducks },
+          { id:"nv4", ph:"ph-11", title:"Begegnung im Wald",          sub:"Ingolstadt",  driveId: DRIVE_IDS.deer },
+          { id:"nv5", ph:"ph-1",  title:"Regenlichter",               sub:"Ingolstadt",  driveId: DRIVE_IDS.rain },
+          { id:"nv6", ph:"ph-s1", title:"Sonnenplatz",                sub:"Ingolstadt",  driveId: DRIVE_IDS.cat },
+          { id:"nv7", ph:"ph-s3", title:"Katzenmorgen",               sub:"München",     driveId: DRIVE_IDS.morning_cat },
         ]
       },
       {
@@ -674,12 +674,12 @@
         bg: "ph-3",
         count: 6,
         items: [
-          { id:"rv1", ph:"ph-9",  title:"Der letzte Zug ins Licht",   sub:"Reisen",  driveId: DRIVE_IDS.train },
-          { id:"rv2", ph:"ph-8",  title:"Abflug bei Sonnenuntergang", sub:"Reisen",  driveId: DRIVE_IDS.plane },
-          { id:"rv3", ph:"ph-2",  title:"Auf der Welle",              sub:"München", driveId: DRIVE_IDS.water },
-          { id:"rv4", ph:"ph-7",  title:"Sommer auf Mallorca",        sub:"Mallorca",driveId: DRIVE_IDS.mallorka },
-          { id:"rv5", ph:"ph-s3", title:"Tanz der Delfine",           sub:"Meer",    driveId: DRIVE_IDS.dolfins },
-          { id:"rv6", ph:"ph-s6", title:"Zwischen zwei Ufern",        sub:"Ägypten", driveId: DRIVE_IDS.egypt },
+          { id:"rv1", ph:"ph-9",  title:"Der letzte Zug ins Licht",   sub:"Prag",      driveId: DRIVE_IDS.train },
+          { id:"rv2", ph:"ph-8",  title:"Abflug bei Sonnenuntergang", sub:"München",   driveId: DRIVE_IDS.plane },
+          { id:"rv3", ph:"ph-2",  title:"Auf der Welle",              sub:"München",   driveId: DRIVE_IDS.water },
+          { id:"rv4", ph:"ph-7",  title:"Sommer auf Mallorca",        sub:"Mallorca",  driveId: DRIVE_IDS.mallorka },
+          { id:"rv5", ph:"ph-s3", title:"Tanz der Delfine",           sub:"Mallorca",  driveId: DRIVE_IDS.dolfins },
+          { id:"rv6", ph:"ph-s6", title:"Zwischen zwei Ufern",        sub:"Ägypten",   driveId: DRIVE_IDS.egypt },
         ]
       },
       {
@@ -689,10 +689,10 @@
         bg: "ph-5",
         count: 4,
         items: [
-          { id:"mv1", ph:"ph-5",  title:"Neujahrsnacht mit Freunden", sub:"Silvester", driveId: DRIVE_IDS.new_year },
-          { id:"mv2", ph:"ph-10", title:"Herbstmomente",              sub:"Herbst",    driveId: DRIVE_IDS.autumn },
-          { id:"mv3", ph:"ph-s2", title:"Fahrt durch den Herbst",     sub:"Herbst",    driveId: DRIVE_IDS.bicycle },
-          { id:"mv4", ph:"ph-4",  title:"Spuren im Sand",             sub:"Strand",    driveId: DRIVE_IDS.sand_footprints },
+          { id:"mv1", ph:"ph-5",  title:"Neujahrsnacht mit Freunden", sub:"Kyjiw",      driveId: DRIVE_IDS.new_year },
+          { id:"mv2", ph:"ph-10", title:"Herbstmomente",              sub:"Ingolstadt", driveId: DRIVE_IDS.autumn },
+          { id:"mv3", ph:"ph-s2", title:"Fahrt durch den Herbst",     sub:"Ingolstadt", driveId: DRIVE_IDS.bicycle },
+          { id:"mv4", ph:"ph-4",  title:"Spuren im Sand",             sub:"Ägypten",    driveId: DRIVE_IDS.sand_footprints },
         ]
       }
     ];
@@ -702,7 +702,7 @@
         { id:"ar1",  driveId:"1NtklGSkRRBgaS9LXlGLdTJWGiL1o8vt5", title:"Goldene Stille",                    sub:"Regensburg" },
         { id:"ar2",  driveId:"1FQLA0tHWFGtOB4xV1xcK15AocmcLXahj", title:"Himmel aus Marmor",                 sub:"München" },
         { id:"ar3",  driveId:"1p8uYMtXdjbU9e2K0q2eLRpICH8EX6q9M", title:"Gotische Eleganz",                  sub:"Milan Duomo" },
-        { id:"ar4",  driveId:"1VVclVjNBg0enQy209A-su2NLvRFRIhWH", title:"Milano Centrale",                   sub:"Mailand" },
+        { id:"ar4",  driveId:"1VVclVjNBg0enQy209A-su2NLvRFRIhWH", title:"Milano Centrale",                   sub:"Italien" },
         { id:"ar5",  driveId:"1Tk-M02C3G7w6dEZya375B-0l_wHikSI1", title:"Karlsbrücke",                      sub:"Prag" },
         { id:"ar6",  driveId:"1XHiikzhRxtnomJV13SYGF3G3t2VkoQ3b", title:"Kathedrale von Palma im Morgengrauen", sub:"Mallorca" },
         { id:"ar7",  driveId:"1_x3BhUutHjJ7eJKpq6e13WklTlnG51mE", title:"The Mirror",                       sub:"Ingolstadt" },
@@ -756,7 +756,7 @@
         { id:"mi4",  driveId:"1CJhKxA9cBuEn0wGYLoyIi-T4dEDYTs4u", title:"Versteckte Stadtfarben",  sub:"Würzburg" },
         { id:"mi5",  driveId:"1XiP1VJWXOHPDsYhHJsS__CJxy8UEqUXM", title:"Sommer im Fokus",         sub:"München" },
         { id:"mi6",  driveId:"17mHoe2HGTYmLWxqYKXZG91dyp_yZhQrP", title:"Lichter des Festes",      sub:"Ingolstadt" },
-        { id:"mi7",  driveId:"19jwmrOFhj59EDsZhhFLxs1HPxCN9Ebi5", title:"Klare Luxuslinien",       sub:"Ingolstadt" },
+        { id:"mi7",  driveId:"1LkHyqMWB0SsgMwi4cxbNA7zS8NrZSgew", title:"Klare Luxuslinien",       sub:"Ingolstadt" },
         { id:"mi8",  driveId:"1E4CmWqCMo-7hDcCK2J5bqyhhBD_pQp0y", title:"Licht und Symmetrie",     sub:"Ägypten" },
         { id:"mi9",  driveId:"1-Aku2PRqK1CNyo5o-fJugnvB1Lb7r0bG", title:"Farben des Herbstes",     sub:"Ingolstadt" },
         { id:"mi10", driveId:"1SinHXILJUWXVSFPIzPI0xS3mZcSElsKZ", title:"Laterne im Dunkeln",      sub:"Ingolstadt" },
@@ -898,27 +898,7 @@
         playIcon.className = "video-play-icon";
         playIcon.addEventListener("click", (e) => {
           e.stopPropagation();
-          // Stop any other playing videos
-          document.querySelectorAll(".photo-item.is-playing").forEach(el => {
-            el.classList.remove("is-playing");
-            const v = el.querySelector("video");
-            if (v) { v.pause(); v.style.display = "none"; }
-            const t = el.querySelector("img");
-            if (t) { t.style.display = "block"; }
-          });
-          // Play this one inline
-          div.classList.add("is-playing");
-          thumb.style.display = "none";
-          vid.style.display = "block";
-          overlay.style.display = "none";
-          vid.play().catch(() => {
-            // Drive direct stream blocked — fall back to iframe modal
-            div.classList.remove("is-playing");
-            thumb.style.display = "block";
-            vid.style.display = "none";
-            overlay.style.display = "";
-            openIframeModal(item.driveId, item.title);
-          });
+          openIframeModal(item.driveId, item.title);
         });
 
         // When video ends, show thumbnail again
